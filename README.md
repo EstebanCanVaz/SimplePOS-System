@@ -142,7 +142,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ## 👥 Autores
 
-- **Tu Nombre** - *Desarrollo inicial* - [TuUsuario](https://github.com/TuUsuario)
+- **Esteban Canto** - *Desarrollo inicial* - [EstebanCanVaz](https://github.com/EstebanCanVaz)
 
 ## 🙏 Agradecimientos
 
