@@ -8,7 +8,7 @@ import Controlador.ControladorReportes;
 
 /**
  *
- * @author Usuario
+ * @author Esteban Canto Vázquez
  */
 public class FrmBuscarComprobante extends javax.swing.JInternalFrame {
 

@@ -7,7 +7,7 @@ import Controlador.ControladorCliente;
 
 /**
  *
- * @author mauem
+ * @author Esteban Canto Vázquez
  */
 public class FrmClientes extends javax.swing.JInternalFrame {
 

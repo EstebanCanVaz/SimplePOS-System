@@ -6,7 +6,7 @@ package Formularios;
 
 /**
  *
- * @author mauem
+ * @author Esteban Canto Vázquez
  */
 public class FrmMenuPrincipal extends javax.swing.JFrame {
 

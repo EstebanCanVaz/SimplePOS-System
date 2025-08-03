@@ -8,7 +8,7 @@ import Controlador.ControladorVenta;
 
 /**
  *
- * @author TOSHIBA
+ * @author Esteban Canto Vázquez
  */
 public class FrmVentas extends javax.swing.JInternalFrame {
 

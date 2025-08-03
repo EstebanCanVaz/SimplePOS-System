@@ -6,7 +6,7 @@ package com.mycompany.proyectopoo;
 
 /**
  *
- * @author Ecant
+ * @author Esteban Canto Vázquez
  */
 public class ProyectoPOO {
 

@@ -6,7 +6,7 @@ package Modelo;
 
 /**
  *
- * @author Ecant
+ * @author Esteban Canto Vázquez
  */
 public class ModeloCliente {
    

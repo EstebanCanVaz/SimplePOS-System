@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Ecant
+ * @author Esteban Canto Vázquez
  */
 public class CConexion {
     Connection conectar = null;

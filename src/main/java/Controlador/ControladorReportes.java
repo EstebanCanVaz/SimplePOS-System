@@ -17,7 +17,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Usuario
+ * @author Esteban Canto Vázquez
  */
 public class ControladorReportes {
  

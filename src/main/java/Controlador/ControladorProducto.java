@@ -14,7 +14,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author TOSHIBA
+ * @author Esteban Canto Vázquez
  */
 public class ControladorProducto {
     public void MostrarProducto(JTable tablaTotalProductos){

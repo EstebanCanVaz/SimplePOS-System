@@ -6,7 +6,7 @@ package Formularios;
 
 /**
  *
- * @author TOSHIBA
+ * @author Esteban Canto Vázquez
  */
 public class FrmReportesFechas extends javax.swing.JInternalFrame {
 

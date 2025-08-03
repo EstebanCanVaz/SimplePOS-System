@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 /**
  *
- * @author Ecant
+ * @author Esteban Canto Vázquez
  */
 public interface PorPagar extends Serializable{
     public double ObtenerMontoPago();

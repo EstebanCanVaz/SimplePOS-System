@@ -16,7 +16,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author mauem
+ * @author Esteban Canto Vázquez
  */
 public class ControladorVenta {
     public void BuscarProducto(JTextField nombreProducto, JTable tablaproductos){

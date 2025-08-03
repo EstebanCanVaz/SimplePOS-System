@@ -14,7 +14,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Ecant
+ * @author Esteban Canto Vázquez
  */
 public class ControladorCliente {
     

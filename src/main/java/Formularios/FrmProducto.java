@@ -6,7 +6,7 @@ package Formularios;
 
 /**
  *
- * @author mauem
+ * @author Esteban Canto Vázquez
  */
 public class FrmProducto extends javax.swing.JInternalFrame {
 
@@ -194,7 +194,7 @@ public class FrmProducto extends javax.swing.JInternalFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnGuardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGuardarActionPerformed
-        // TODO add your handling code here:
+        // Product save handling code:
         Controlador.ControladorProducto objetoProducto = new Controlador.ControladorProducto();
         objetoProducto.AgregarProducto(txtNombreProducto, txtPrecioProducto, txtStockProducto);
         objetoProducto.MostrarProducto(tbProductos);
@@ -202,13 +202,13 @@ public class FrmProducto extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_btnGuardarActionPerformed
 
     private void tbProductosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tbProductosMouseClicked
-        // TODO add your handling code here:
+        // Product selection handling code:
         Controlador.ControladorProducto objetoProducto = new Controlador.ControladorProducto();
         objetoProducto.Seleccionar(tbProductos, txtIdProducto,txtNombreProducto, txtPrecioProducto, txtStockProducto);
     }//GEN-LAST:event_tbProductosMouseClicked
 
     private void btnModificarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnModificarActionPerformed
-        // TODO add your handling code here:
+        // Product update handling code:
         Controlador.ControladorProducto objetoProducto = new Controlador.ControladorProducto();
         objetoProducto.ModificarProducto(txtIdProducto, txtNombreProducto, txtPrecioProducto, txtStockProducto);
         objetoProducto.MostrarProducto(tbProductos);
@@ -216,13 +216,13 @@ public class FrmProducto extends javax.swing.JInternalFrame {
     }//GEN-LAST:event_btnModificarActionPerformed
 
     private void btnLimpiarCamposActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLimpiarCamposActionPerformed
-        // TODO add your handling code here:
+        // Clear fields handling code:
         Controlador.ControladorProducto objetoProducto = new Controlador.ControladorProducto();
         objetoProducto.limpiarCamposProducto(txtIdProducto, txtNombreProducto, txtPrecioProducto, txtStockProducto);
     }//GEN-LAST:event_btnLimpiarCamposActionPerformed
 
     private void btnEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarActionPerformed
-        // TODO add your handling code here:
+        // Product delete handling code:
         Controlador.ControladorProducto objetoProducto = new Controlador.ControladorProducto();
         objetoProducto.EliminarProductos(txtIdProducto);
         objetoProducto.MostrarProducto(tbProductos);
